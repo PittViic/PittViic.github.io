@@ -2,19 +2,18 @@ const translations = {
     pt: {
         nav_home: "Início",
         nav_about: "Sobre",
-        nav_skills: "Expertise", // Mudou de "Habilidades" para parecer mais sênior
+        nav_skills: "Expertise",
         nav_projects: "Projetos",
         nav_contact: "Contato",
         home_hello: "Olá, eu sou",
-        home_iam: "E eu atuo como", // Mudança sutil para profissionalismo
+        home_iam: "E eu atuo como",
         home_description: "Transformo dados brutos em decisões inteligentes. Especialista em criar modelos de Machine Learning e colocá-los em produção com engenharia de software sólida.",
         btn_cv: "Baixar CV",
         about_title: "Cientista de Dados & ML Engineer",
         about_text: "Minha paixão é encontrar padrões onde outros veem apenas números. Como estudante de Ciência da Computação no IFMA, combino a matemática estatística com a engenharia de software. Não apenas treino modelos de IA (como BERT e LLMs), mas construo as interfaces (Web/Mobile) para que esses modelos sejam usados no mundo real. Meu foco é impacto e performance.",
         btn_read_more: "Ver Experiência",
         skills_my: "Minha",
-        // Reescrita para focar em "Engenharia de Dados/Deploy"
-        skill_web: "Engenharia de Software", 
+        skill_web: "Engenharia de Software",
         skill_web_desc: "Desenvolvimento de APIs e Dashboards para deploy de modelos e visualização de dados.",
         btn_know_more: "Saiba Mais",
         skill_data_desc: "Pipeline completo: Coleta, Limpeza, Análise Exploratória e Modelagem Preditiva.",
@@ -24,7 +23,6 @@ const translations = {
         proj_2_desc: "Aplicação inteligente para otimização de protocolos de saúde.",
         proj_3_desc: "Solução completa de BI com automação Python e storytelling de dados.",
         contact_title: "Vamos",
-        // AQUI ESTÁ A MUDANÇA PRINCIPAL:
         typed_strings: ["Cientista de Dados", "Engenheiro de ML", "Analista de Dados"]
     },
     en: {
