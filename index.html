@@ -7,9 +7,13 @@
 
     <meta property="og:title" content="Pedro Victor | Data Scientist & ML Engineer">
     <meta property="og:description" content="Portfólio de Pedro Victor. Transformando dados em decisões com Python, Machine Learning e Engenharia de Software.">
-    <meta property="og:image" content="https://pittviic.github.io/eu.jpg"> <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta property="og:image" content="https://pittviic.github.io/eu.jpg"> 
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
@@ -66,12 +70,10 @@
         <h2 class="heading"><span data-i18n="skills_my">Minha</span> <span data-i18n="nav_skills">Expertise</span></h2>
 
         <div class="services-container">
-            
             <div class="services-box">
                 <i class='bx bxs-data main-icon'></i>
                 <h3>Data Science</h3>
                 <p data-i18n="skill_data_desc">Pipeline completo: Coleta, Limpeza, Análise Exploratória e Modelagem Preditiva.</p>
-                
                 <div class="tech-stack">
                     <i class='bx bxl-python' title="Python"></i>
                     <i class='bx bxs-spreadsheet' title="Excel"></i>
@@ -87,7 +89,6 @@
                 <i class='bx bx-code-alt main-icon'></i>
                 <h3 data-i18n="skill_web">Engenharia de Software</h3>
                 <p data-i18n="skill_web_desc">Desenvolvimento de APIs e Dashboards para deploy de modelos e visualização.</p>
-                
                 <div class="tech-stack">
                     <i class='bx bxl-html5' title="HTML5"></i>
                     <i class='bx bxl-css3' title="CSS3"></i>
@@ -100,7 +101,6 @@
                 <i class='bx bxl-flutter main-icon'></i>
                 <h3>Mobile Solutions</h3>
                 <p data-i18n="skill_mobile_desc">Criação de interfaces móveis para levar inteligência de dados à palma da mão.</p>
-                
                 <div class="tech-stack">
                     <i class='bx bxl-flutter' title="Flutter"></i>
                     <i class='bx bxl-firebase' title="Firebase"></i>
@@ -108,72 +108,78 @@
                     <i class='bx bxl-apple' title="iOS"></i>
                 </div>
             </div>
-
         </div>
     </section>
 
     <section class="portfolio" id="portfolio">
         <h2 class="heading"><span data-i18n="projects_my">Meus</span> <span data-i18n="nav_projects">Projetos</span></h2>
-
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="img/image.png" alt="Projeto NLP">
-                <div class="portfolio-layer">
-                    <h4>NLP & BERT</h4>
-                    <p data-i18n="proj_1_desc">Modelo de NLP para análise de sentimentos com alta precisão.</p>
-                    <div class="portfolio-links">
-                        <a href="https://github.com/PittViic/analise-sentimentos" target="_blank" title="Código"><i class='bx bxl-github'></i></a>
+        
+        <div class="portfolio-container swiper mySwiper">
+            <div class="swiper-wrapper">
+                
+                <div class="portfolio-box swiper-slide">
+                    <img src="img/image.png" alt="Projeto NLP">
+                    <div class="portfolio-layer">
+                        <h4>NLP & BERT</h4>
+                        <p data-i18n="proj_1_desc">Modelo de NLP para análise de sentimentos com alta precisão.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/PittViic/analise-sentimentos" target="_blank" title="Código"><i class='bx bxl-github'></i></a>
                         </div>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="img/dashboard.png" alt="Dashboard">
-                <div class="portfolio-layer">
-                    <h4>Data Viz & BI</h4>
-                    <p data-i18n="proj_3_desc">Solução completa de BI com automação Python e storytelling de dados.</p>
-                    <div class="portfolio-links">
-                        <a href="https://github.com/PittViic/finance-dashboard" target="_blank" title="Código"><i class='bx bxl-github'></i></a>
-                        <a href="https://pedros-dashboard.streamlit.app/" target="_blank" title="Ver Online"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
-            </div>
 
-            <div class="portfolio-box">
-                <img src="img/fraud.png" alt="Detecção de Fraude">
-                
-                <div class="portfolio-layer">
-                    <h4>Fraud Detection</h4>
-                    <p data-i18n="proj_fraud_desc">Modelo de ML para detecção de fraudes financeiras lidando com dados desbalanceados.</p>
-                    
-                    <div class="portfolio-links">
-                        <a href="https://github.com/PittViic/fraud-detection" target="_blank" title="Código Fonte">
-                            <i class='bx bxl-github'></i>
-                        </a>
-                        <a href="https://colab.research.google.com/drive/1vS-OTTLW-fjO9CxVF5CtyXZ3a-7m5X8v?usp=sharing" target="_blank" title="Ver Notebook">
-                            <i class='bx bx-data'></i>
-                        </a>
+                <div class="portfolio-box swiper-slide">
+                    <img src="img/fraud.png" alt="Detecção de Fraude">
+                    <div class="portfolio-layer">
+                        <h4>Fraud Detection</h4>
+                        <p data-i18n="proj_fraud_desc">Modelo de detecção de fraudes financeiras com dados desbalanceados.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/PittViic/fraud-detection" target="_blank" title="Código Fonte"><i class='bx bxl-github'></i></a>
+                            <a href="https://colab.research.google.com/drive/SEU_LINK" target="_blank" title="Ver Notebook"><i class='bx bx-data'></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="portfolio-box">
-                <img src="img/rossmann.png" alt="Detecção de Fraude">
-                
-                <div class="portfolio-layer">
-                    <h4>Rossmann Sales Predictions</h4>
-                    <p data-i18n="rossmann_pred">Engenharia de atributos em Séries Temporais para capturar sazonalidade e modelagem com XGBoost.</p>
-                    
-                    <div class="portfolio-links">
-                        <a href="https://github.com/PittViic/rossmann-sales-prediction" target="_blank" title="Código Fonte">
-                            <i class='bx bxl-github'></i>
-                        </a>
-                        <a href="https://colab.research.google.com/drive/1f-gUNeYY6kJZfeE48wTvivGMZkuR_utp?usp=sharing" target="_blank" title="Ver Notebook">
-                            <i class='bx bx-data'></i>
-                        </a>
+                <div class="portfolio-box swiper-slide">
+                    <img src="img/rossmann.png" alt="Previsão de Vendas">
+                    <div class="portfolio-layer">
+                        <h4>Sales Prediction</h4>
+                        <p data-i18n="rossmann_pred">Previsão de vendas de lojas usando XGBoost e Séries Temporais.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/PittViic/rossmann-sales-prediction" target="_blank" title="Código Fonte"><i class='bx bxl-github'></i></a>
+                            <a href="#" target="_blank" title="Ver Notebook"><i class='bx bx-data'></i></a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="portfolio-box swiper-slide">
+                    <img src="img/dashboard.png" alt="Dashboard">
+                    <div class="portfolio-layer">
+                        <h4>Data Viz & BI</h4>
+                        <p data-i18n="proj_3_desc">Solução completa de BI com automação Python e storytelling.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/PittViic/finance-dashboard" target="_blank" title="Código"><i class='bx bxl-github'></i></a>
+                            <a href="https://pedros-dashboard.streamlit.app/" target="_blank" title="Ver Online"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-box swiper-slide">
+                    <img src="https://placehold.co/600x400/1e293b/FFF?text=App+SAMU" alt="App SAMU">
+                    <div class="portfolio-layer">
+                        <h4>App Mobile</h4>
+                        <p data-i18n="proj_2_desc">Aplicação inteligente para otimização de protocolos de saúde.</p>
+                        <div class="portfolio-links">
+                            <a href="#" target="_blank" title="Código"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
@@ -216,11 +222,40 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
     <script src="translations.js"></script>
     <script src="script.js"></script>
 
     <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            grabCursor: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                576: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+            },
+        });
+    </script>
+
+    <script>
+        // Efeito Tilt 3D
         const cards = document.querySelectorAll('.services-box');
         cards.forEach(card => {
             card.addEventListener('mousemove', (e) => {
@@ -235,9 +270,8 @@
                 card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0)';
             });
         });
-    </script>
 
-    <script>
+        // Efeito Spotlight
         const body = document.querySelector('body');
         body.addEventListener('mousemove', (e) => {
             body.style.setProperty('--x', e.clientX + 'px');
@@ -246,6 +280,3 @@
     </script>
 </body>
 </html>
-
-
-
