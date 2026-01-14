@@ -23,6 +23,7 @@ const translations = {
         proj_2_desc: "Aplicação inteligente para otimização de protocolos de saúde.",
         proj_3_desc: "Solução completa de BI com automação Python e storytelling de dados.",
         proj_fraud_desc: "Modelo de detecção de fraudes em cartão de crédito usando Random Forest e SMOTE para dados desbalanceados (Foco em Recall).",
+        rossmann_pred: "Engenharia de atributos em Séries Temporais para capturar sazonalidade e modelagem com XGBoost.",
         contact_title: "Vamos",
         typed_strings: ["Cientista de Dados", "Engenheiro de ML", "Analista de Dados"]
     },
@@ -50,6 +51,7 @@ const translations = {
         proj_2_desc: "Intelligent application for health protocol optimization.",
         proj_3_desc: "Complete BI solution with Python automation and data storytelling.",
         proj_fraud_desc: "Credit card fraud detection model using Random Forest and SMOTE for imbalanced data (High Recall focus).",
+        rossmann_pred: "Time Series Feature Engineering to Capture Seasonality and Modeling with XGBoost.",
         contact_title: "Let's",
         typed_strings: ["Data Scientist", "ML Engineer", "Data Analyst"]
     },
@@ -77,6 +79,7 @@ const translations = {
         proj_2_desc: "Aplicación inteligente para optimización de protocolos de salud.",
         proj_3_desc: "Solución completa de BI con automatización Python y storytelling de datos.",
         proj_fraud_desc: "Modelo de detección de fraudes en tarjetas de crédito usando Random Forest y SMOTE (Enfoque en Recall).",
+        rossmann_pred: "Ingeniería de características de series temporales para capturar la estacionalidad y el modelado con XGBoost.",
         contact_title: "Vamos a",
         typed_strings: ["Científico de Datos", "Ingeniero de ML", "Analista de Datos"]
     }
