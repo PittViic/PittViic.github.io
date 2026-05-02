@@ -20,11 +20,12 @@
 
     <nav class="fixed w-full z-50 top-0 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold tracking-tighter text-white">Pedro<span class="text-blue-400">Victor</span></a>
+            <a href="#" class="text-xl font-bold tracking-tighter text-white">Pedro<span class="text-blue-400"> Victor</span></a>
             <div class="space-x-6 hidden md:flex text-sm font-medium">
                 <a href="#experiencia" class="hover:text-blue-400 transition">Experiência</a>
-                <a href="#projetos" class="hover:text-blue-400 transition">Projetos</a>
                 <a href="#habilidades" class="hover:text-blue-400 transition">Habilidades</a>
+                <a href="#projetos" class="hover:text-blue-400 transition">Projetos</a>
+                <a href="#contato" class="hover:text-blue-400 transition">Contato</a>
             </div>
             <div class="space-x-4">
                 <a href="https://www.linkedin.com/in/pedro-victor-ssa" target="_blank" class="text-gray-400 hover:text-white transition"><i class="fab fa-linkedin text-xl"></i></a>
@@ -151,7 +152,7 @@
         <div class="max-w-6xl mx-auto px-4">
             <h3 class="text-3xl font-bold text-white mb-10 border-l-4 border-blue-500 pl-4">Projetos em Destaque</h3>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 
                 <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(59,130,246,0.1)] transition duration-300">
                     <div class="p-6 h-full flex flex-col">
@@ -181,6 +182,20 @@
                     </div>
                 </div>
 
+                <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(59,130,246,0.1)] transition duration-300">
+                    <div class="p-6 h-full flex flex-col">
+                        <div class="flex justify-between items-center mb-4">
+                            <i class="fas fa-mobile-alt text-2xl text-blue-400"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-2">Fadir App</h4>
+                        <p class="text-gray-400 text-sm mb-6">Aplicativo de gestão com centralização de informações e integração de funcionalidades sociais para gestores institucionais do IFMA.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="text-xs font-medium text-blue-400 bg-blue-400/10 px-2 py-1 rounded">Mobile</span>
+                            <span class="text-xs font-medium text-blue-400 bg-blue-400/10 px-2 py-1 rounded">Full-Stack</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(248,113,113,0.1)] transition duration-300">
                     <div class="p-6 h-full flex flex-col">
                         <div class="flex justify-between items-center mb-4">
@@ -195,6 +210,47 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-20">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-gray-800/50 rounded-2xl border border-gray-700 p-8 md:p-12 hover:border-blue-500/50 transition duration-300">
+                <div class="text-center mb-10">
+                    <h3 class="text-3xl font-bold text-white mb-4">Vamos conversar?</h3>
+                    <p class="text-gray-400">Tem uma proposta, projeto ou apenas quer bater um papo sobre tecnologia? Me mande uma mensagem.</p>
+                </div>
+                
+                <!-- Formulário integrado com FormSubmit -->
+                <form action="https://formsubmit.co/pvictors152004@gmail.com" method="POST" class="space-y-6">
+                    
+                    <!-- Configurações ocultas de segurança e redirecionamento -->
+                    <input type="hidden" name="_subject" value="Novo contato pelo Portfolio!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="#">
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-400 mb-2">Nome</label>
+                            <input type="text" id="name" name="name" required placeholder="Seu nome" class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-400 mb-2">E-mail</label>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com" class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-400 mb-2">Mensagem</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Como posso ajudar?" class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition resize-none"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center gap-2">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+                </form>
             </div>
         </div>
     </section>
