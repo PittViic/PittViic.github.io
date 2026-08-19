@@ -36,4 +36,14 @@
     font-size: 30px;
     text-align: center;
   }
+  .experience-cards-div {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .experience-cards-div {
+    grid-template-columns: 1fr;
+  }
 }
