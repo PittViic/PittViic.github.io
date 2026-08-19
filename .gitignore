@@ -4,24 +4,33 @@
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 /coverage
+
+# production build
 /build
+/dist
 
-
-# misc
-.DS_Store
+# environment variables
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#user generated content
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# user generated content
 public/profile.json
 public/blogs.json
