@@ -1,0 +1,160 @@
+{
+  "greeting": {
+    "title": "Hi, I'm Pedro Victor",
+    "subTitle": "Computer Scientist focusing on Data Science, Machine Learning, and Full Stack development. Practical experience in AI projects applied to public administration, data infrastructure, and natural language processing.",
+    "contactBtn": "Contact me",
+    "resumeBtn": "See my Resume"
+  },
+  "header": {
+    "skills": "Skills",
+    "workExperiences": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "achievements": "Achievements",
+    "contact": "Contact"
+  },
+  "skillsSection": {
+    "title": "What I Do",
+    "subTitle": "DATA & ML ENGINEER TRANSFORMING DATA INTO INTELLIGENT SOLUTIONS",
+    "skills": [
+      "⚡ Building data pipelines and Data Engineering infrastructure with Python, SQL and AWS",
+      "⚡ Developing Machine Learning models and AI applied to fraud detection and predictive analysis",
+      "⚡ Full Stack applications and interactive data visualization dashboards (Power BI, Excel)"
+    ]
+  },
+  "educationInfo": {
+    "title": "Education",
+    "schools": [
+      {
+        "schoolName": "Federal Institute of Maranhão",
+        "subHeader": "Bachelor's degree in Computer Science",
+        "duration": "2023 - 2026",
+        "desc": "Focus on Data Science, Machine Learning, and data-driven solutions development.",
+        "descBullets": [
+          "AI projects applied to public administration and fraud detection",
+          "Full Stack development with integration of AI features"
+        ]
+      },
+      {
+        "schoolName": "Coursera",
+        "subHeader": "Google Data Analytics Professional Certificate",
+        "duration": "2026",
+        "desc": "Professional data analytics certification by Google.",
+        "descBullets": []
+      }
+    ]
+  },
+  "techStack": {
+    "title": "Proficiency",
+    "experience": [
+      {
+        "Stack": "Data Science & ML",
+        "progressPercentage": "70%"
+      },
+      {
+        "Stack": "Backend & Data Engineering",
+        "progressPercentage": "65%"
+      },
+      {
+        "Stack": "Frontend & Data Visualization",
+        "progressPercentage": "55%"
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Work Experience",
+    "experience": [
+      {
+        "role": "Full-Stack Developer",
+        "company": "CredVip",
+        "date": "Apr 2025 – Present",
+        "desc": "End-to-end development of corporate platforms with process automation and data analysis.",
+        "descBullets": [
+          "Developed complete platforms (Front-end and Back-end) for centralizing and managing operations",
+          "Automated tasks and operational processes, reducing manual interventions",
+          "Advanced manipulation and organization of complex databases",
+          "Cross-referencing and analyzing data to generate strategic insights",
+          "Applied AI to create animations and visual resources"
+        ]
+      },
+      {
+        "role": "Researcher - Construction and Curation of Institutional Corpus",
+        "company": "Federal Institute of Maranhão - IFMA",
+        "date": "Aug 2026 – Present",
+        "desc": "Developing pipelines for collection, processing, and curation of text collections for AI research infrastructure.",
+        "descBullets": [
+          "Developed spiders for automated extraction and ingestion of heterogeneous text collections with systematic metadata cataloging",
+          "Processed legacy collections with Deep Learning-based OCR algorithms for standardization and document noise mitigation",
+          "Implemented Named Entity Recognition models via Transformer architectures to pseudonymize sensitive data, complying with the Brazilian GDPR equivalent (LGPD)",
+          "Mathematical validation of lexical cohesion and corpus representativeness applying quantitative linguistics metrics",
+          "Structured and published the curated corpus as infrastructure for AI research using high-efficiency formats"
+        ]
+      },
+      {
+        "role": "Academic Researcher - AI applied to Public Accountability",
+        "company": "Federal Institute of Maranhão - IFMA",
+        "date": "Nov 2024 – Apr 2025",
+        "desc": "Conceiving Machine Learning solutions to optimize accounting and auditing processes in public agencies.",
+        "descBullets": [
+          "Conceived and implemented AI features to optimize the accounting processes of government agencies in Maranhão",
+          "Developed Machine Learning algorithms for automated classification and structuring of accounting documents",
+          "Created an intelligent fraud detection system to identify inconsistencies, anomalies, and financial deviations",
+          "Engineered AI features for pre-processing and organizing complex financial data"
+        ]
+      },
+      {
+        "role": "Full-Stack Developer - Fadir",
+        "company": "Federal Institute of Maranhão - IFMA",
+        "date": "Aug 2025 – Dec 2025",
+        "desc": "Created a management application to centralize information and social features at IFMA.",
+        "descBullets": [
+          "Created a management application tailored to the needs of IFMA managers",
+          "Centralized information and integrated social features to facilitate internal communication and administration"
+        ]
+      }
+    ]
+  },
+  "bigProjects": {
+    "title": "Featured Projects",
+    "subtitle": "IMPACTFUL PROJECTS IN AI, DATA SCIENCE, AND SOFTWARE DEVELOPMENT",
+    "projects": [
+      {
+        "projectName": "FADIR",
+        "projectDesc": "Management application tailored to the needs of IFMA managers. Centralized information and integrated social features for internal communication and administration.",
+        "footerLink": "View on GitHub"
+      },
+      {
+        "projectName": "AI Applied to Public Accountability",
+        "projectDesc": "Intelligent fraud detection system that identifies inconsistencies, anomalies, and deviations in financial classifications. Engineered AI features to pre-process complex financial data.",
+        "footerLink": "View on GitHub"
+      }
+    ],
+    "button": "More Projects"
+  },
+  "achievementSection": {
+    "title": "Certifications & Education",
+    "subtitle": "Certifications and supplementary courses that strengthen my professional background",
+    "achievementsCards": [
+      {
+        "title": "Google Data Analytics Professional Certificate",
+        "subtitle": "Professional data analytics certification by Google — covering data collection, cleaning, analysis, and visualization."
+      },
+      {
+        "title": "Global Consumer Intelligence (GCI) World | Matsuo-Iwasawa Laboratory (The University of Tokyo)",
+        "subtitle": "Proficiency in practical analysis, data processing, and machine learning using Python, NumPy, Pandas, and Scikit-learn."
+      },
+      {
+        "title": "Complete C and C++ Language Course",
+        "subtitle": "Complete C and C++ training by Udemy, focusing on programming fundamentals, data structures, and algorithms."
+      }
+    ]
+  },
+  "contactInfo": {
+    "title": "Get In Touch",
+    "subtitle": "Want to discuss a project or just chat? I'm always open to new connections.",
+    "button": "Contact me"
+  },
+  "footer": {
+    "madeWith": "Made by Pedro Victor"
+  }
+}

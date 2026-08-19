@@ -1,0 +1,90 @@
+/* Paleta de cores refinada e minimalista para o portfólio de Pedro Victor.
+   Tons suaves, elegantes e com bom contraste. */
+
+// button colors
+$buttonColor: #6366f1;
+$buttonHover: #818cf8;
+$topButtonHover: #1e1b4b;
+
+// text colors light theme
+$titleColor: #1e1b4b;
+$textColor: #1e1b4b;
+$subTitle: #64748b;
+$cardSubtitle: #475569;
+$talkCardSubTitle: #64748b;
+$blogCardTitleColor: #1e293b;
+
+// text color dark theme
+$textColorDark: #e2e8f0;
+
+// toggle switch colors
+$toggleCheck: #6366f1;
+$toggleSwitchSliderBG: #cbd5e1;
+
+// githubRepo specific colors
+$githubRepoCardLanguageColorBG: #6366f1;
+$githubRepoCardColor: rgb(100, 116, 139);
+$githubRepoCardRepoCardStatsColor: rgb(100, 116, 139);
+$githubRepoCardRepoNameColor: rgb(30, 27, 75);
+$githubProfileCardLocationTS: #e0e7ff;
+$githubProfileCardBorder: #6366f1;
+
+// light background colors
+$lightBackground1: #fafbff;
+$lightBackground2: #ffffff;
+$lightBackground3: #f1f5f9;
+$blogCardContainerColor: #64748b;
+
+// dark background colors
+$darkBackground: #0f172a;
+
+// light theme box shadows
+$lightBoxShadowDark: rgba(99, 102, 241, 0.08);
+$lightBoxShadow: rgba(99, 102, 241, 0.04);
+$lightBoxShadowDarker: rgba(30, 27, 75, 0.12);
+
+// dark theme box shadows
+$darkBoxShadow: #334155;
+$darkBoxShadow2: #e2e8f0;
+
+// linear gradients
+$experienceCardBlurredDivLG: linear-gradient(
+  rgba(15, 23, 42, 0.3),
+  rgba(15, 23, 42, 0.15)
+);
+$experienceCardBannerLG: linear-gradient(
+  rgba(15, 23, 42, 0.6),
+  rgba(15, 23, 42, 0.4)
+);
+
+// borders
+$progressBarBackground: #e2e8f0;
+$lightBorder1: rgba(226, 232, 240, 0.6);
+$educationCardBorder: #a5b4fc;
+
+// hovers
+$achievementCertificateCardHoverDark: rgba(99, 102, 241, 0.15);
+$blogCardHoverSmallColor: rgba(255, 255, 255, 0.9);
+$headerHoverBG: #eef2ff;
+$contactDetailHoverTS: #a5b4fc;
+
+// misc backgrounds
+$progressBarSpanBG: #6366f1;
+$iconBackground: #1e293b;
+$appHeaderBG: #0f172a;
+
+// misc colors
+$skillsColor: #6366f1;
+$appLink: #6366f1;
+
+// social media icons
+$faceBook: #3b5998;
+$linkedin: #0077b5;
+$github: #1e293b;
+$gitlab: #fca326;
+$google: #ea4335;
+$twitter: #1da1f2;
+$medium: #1e293b;
+$stackoverflow: #f48024;
+$instagram: #e1306c;
+$kaggle: #20beff;

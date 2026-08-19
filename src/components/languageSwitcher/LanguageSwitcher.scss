@@ -1,0 +1,65 @@
+@import "../../_globalColor";
+
+.language-switcher {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 55px;
+  height: 55px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: $buttonColor;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: right 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55), background-color 0.2s ease-in-out;
+
+  &.shifted {
+    right: 100px;
+  }
+
+  &:hover {
+    background-color: $topButtonHover;
+
+    .globe-icon {
+      animation: rotateGlobe 4s linear infinite;
+    }
+  }
+
+  .globe-icon {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 2px;
+  }
+
+  .lang-text {
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: "Inter", "Montserrat", sans-serif;
+  }
+}
+
+@keyframes rotateGlobe {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateGlobe {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+

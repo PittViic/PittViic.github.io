@@ -1,0 +1,160 @@
+{
+  "greeting": {
+    "title": "Olá, eu sou Pedro Victor",
+    "subTitle": "Cientista da Computação com foco em Ciência de Dados, Machine Learning e desenvolvimento Full Stack. Experiência prática em projetos de IA aplicada à gestão pública, infraestrutura de dados e processamento de linguagem natural.",
+    "contactBtn": "Entre em contato",
+    "resumeBtn": "Ver Currículo"
+  },
+  "header": {
+    "skills": "Habilidades",
+    "workExperiences": "Experiência",
+    "education": "Formação",
+    "projects": "Projetos",
+    "achievements": "Certificações",
+    "contact": "Contato"
+  },
+  "skillsSection": {
+    "title": "O que eu faço",
+    "subTitle": "ENGENHEIRO DE DADOS & ML QUE TRANSFORMA DADOS EM SOLUÇÕES INTELIGENTES",
+    "skills": [
+      "⚡ Construção de pipelines de dados e infraestrutura de Data Engineering com Python, SQL e AWS",
+      "⚡ Desenvolvimento de modelos de Machine Learning e IA aplicada à detecção de fraudes e análise preditiva",
+      "⚡ Aplicações Full Stack e dashboards interativos com visualização de dados (Power BI, Excel)"
+    ]
+  },
+  "educationInfo": {
+    "title": "Formação",
+    "schools": [
+      {
+        "schoolName": "Instituto Federal do Maranhão",
+        "subHeader": "Bacharelado em Ciências da Computação",
+        "duration": "2023 - 2026",
+        "desc": "Foco em Ciência de Dados, Machine Learning e desenvolvimento de soluções orientadas a dados.",
+        "descBullets": [
+          "Projetos de IA aplicada à gestão pública e detecção de fraudes",
+          "Desenvolvimento Full Stack com integração de funcionalidades de IA"
+        ]
+      },
+      {
+        "schoolName": "Coursera",
+        "subHeader": "Google Data Analytics Professional Certificate",
+        "duration": "2026",
+        "desc": "Certificação profissional em análise de dados pelo Google.",
+        "descBullets": []
+      }
+    ]
+  },
+  "techStack": {
+    "title": "Proficiência",
+    "experience": [
+      {
+        "Stack": "Data Science & ML",
+        "progressPercentage": "70%"
+      },
+      {
+        "Stack": "Backend & Data Engineering",
+        "progressPercentage": "65%"
+      },
+      {
+        "Stack": "Frontend & Visualização",
+        "progressPercentage": "55%"
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Experiência Profissional",
+    "experience": [
+      {
+        "role": "Desenvolvedor Full-Stack",
+        "company": "CredVip",
+        "date": "Abr 2025 – Atualmente",
+        "desc": "Desenvolvimento end-to-end de plataformas corporativas com automação de processos e análise de dados.",
+        "descBullets": [
+          "Desenvolvimento de plataformas completas (Front-end e Back-end) para centralização e gestão das operações",
+          "Automação de tarefas e processos operacionais, reduzindo intervenções manuais",
+          "Manipulação avançada e organização de bancos de dados complexos",
+          "Cruzamento e análise de dados para geração de insights estratégicos",
+          "Aplicação de IA para criação de animações e recursos visuais"
+        ]
+      },
+      {
+        "role": "Pesquisador - Construção e Curadoria do Corpus Institucional",
+        "company": "Instituto Federal do Maranhão - IFMA",
+        "date": "Ago 2026 – Atualmente",
+        "desc": "Desenvolvimento de pipelines de coleta, processamento e curadoria de acervos textuais para infraestrutura de pesquisas em IA.",
+        "descBullets": [
+          "Desenvolvimento de spiders para extração e ingestão automatizada de acervos textuais heterogêneos com catalogação sistemática de metadados",
+          "Processamento de acervo legado com algoritmos de OCR baseados em Deep Learning para padronização e mitigação de ruído documental",
+          "Implementação de modelos de Reconhecimento de Entidades Nomeadas via arquiteturas Transformer para pseudonimização de dados sensíveis, em conformidade com a LGPD",
+          "Validação matemática de coesão lexical e representatividade do corpus aplicando métricas da linguística quantitativa",
+          "Estruturação e disponibilização do corpus curado como infraestrutura para pesquisas em IA, utilizando formatos de alta eficiência"
+        ]
+      },
+      {
+        "role": "Pesquisador Acadêmico - IA aplicada à Prestação de Contas Públicas",
+        "company": "Instituto Federal do Maranhão - IFMA",
+        "date": "Nov 2024 – Abr 2025",
+        "desc": "Concepção de soluções de Machine Learning para otimizar processos de contabilidade e auditoria em órgãos públicos.",
+        "descBullets": [
+          "Concepção e implementação de recursos de IA para otimizar processos de contabilidade dos órgãos governamentais do Maranhão",
+          "Desenvolvimento de algoritmos de Machine Learning para classificação e estruturação automatizada de documentos contábeis",
+          "Criação de um sistema inteligente de detecção de fraudes para identificar inconsistências, anomalias e desvios financeiros",
+          "Engenharia de funcionalidades de IA para pré-processamento e organização de dados financeiros complexos"
+        ]
+      },
+      {
+        "role": "Desenvolvedor Full-Stack - Fadir",
+        "company": "Instituto Federal do Maranhão - IFMA",
+        "date": "Ago 2025 – Dez 2025",
+        "desc": "Criação de aplicativo de gestão para centralizar informações e funcionalidades sociais no IFMA.",
+        "descBullets": [
+          "Criação de um aplicativo de gestão focado nas necessidades dos gestores do IFMA",
+          "Centralização de informações e integração de funcionalidades sociais para facilitar a comunicação e administração interna"
+        ]
+      }
+    ]
+  },
+  "bigProjects": {
+    "title": "Projetos em Destaque",
+    "subtitle": "PROJETOS DE IMPACTO EM IA, DATA SCIENCE E DESENVOLVIMENTO DE SOFTWARE",
+    "projects": [
+      {
+        "projectName": "FADIR",
+        "projectDesc": "Aplicativo de gestão focado nas necessidades dos gestores do IFMA. Centralização de informações e integração de funcionalidades sociais para comunicação e administração interna.",
+        "footerLink": "Ver no GitHub"
+      },
+      {
+        "projectName": "IA Aplicada a Prestação de Contas Públicas",
+        "projectDesc": "Sistema inteligente de detecção de fraudes que identifica inconsistências, anomalias e desvios nas classificações financeiras. Engenharia de funcionalidades de IA para pré-processamento de dados financeiros complexos.",
+        "footerLink": "Ver no GitHub"
+      }
+    ],
+    "button": "Mais Projetos"
+  },
+  "achievementSection": {
+    "title": "Certificações & Formação",
+    "subtitle": "Certificações e cursos complementares que fortalecem minha formação profissional",
+    "achievementsCards": [
+      {
+        "title": "Google Data Analytics Professional Certificate",
+        "subtitle": "Certificação profissional em análise de dados pelo Google — cobrindo coleta, limpeza, análise e visualização de dados."
+      },
+      {
+        "title": "Global Consumer Intelligence (GCI) World | Matsuo-Iwasawa Laboratory (The University of Tokyo)",
+        "subtitle": "Domínio em análise prática, processamento de dados e aprendizado de máquina utilizando Python, NumPy, Pandas e Scikit-learn."
+      },
+      {
+        "title": "Curso Completo de Linguagem C e C++",
+        "subtitle": "Formação completa em C e C++ pela Udemy, com foco em fundamentos de programação, estruturas de dados e algoritmos."
+      }
+    ]
+  },
+  "contactInfo": {
+    "title": "Entre em Contato",
+    "subtitle": "Quer discutir um projeto ou apenas trocar uma ideia? Estou sempre aberto a novas conexões.",
+    "button": "Contate-me"
+  },
+  "footer": {
+    "madeWith": "Feito por Pedro Victor"
+  }
+}
