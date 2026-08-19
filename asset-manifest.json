@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c5ccaff.css",
+    "main.js": "/static/js/main.87acb962.js",
+    "static/css/487.b5681303.chunk.css": "/static/css/487.b5681303.chunk.css",
+    "static/js/487.030fbe60.chunk.js": "/static/js/487.030fbe60.chunk.js",
+    "static/css/990.7572d4ba.chunk.css": "/static/css/990.7572d4ba.chunk.css",
+    "static/js/990.8c4bad99.chunk.js": "/static/js/990.8c4bad99.chunk.js",
+    "static/media/iaAuditoriaProject.png": "/static/media/iaAuditoriaProject.d82d945056311c468a34.png",
+    "static/media/credvipLogo.jpg": "/static/media/credvipLogo.0808963ce1bddb2e4b06.jpg",
+    "static/media/fadir-logo.png": "/static/media/fadir-logo.eff63e469b9857c8cd78.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/matsuo.png": "/static/media/matsuo.f0366ca8fbf6fd1d29d0.png",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/deepwork.svg": "/static/media/deepwork.2f418a36ec2dc1d27e3aeca7c5964b4d.svg",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.3c5ccaff.css.map": "/static/css/main.3c5ccaff.css.map",
+    "main.87acb962.js.map": "/static/js/main.87acb962.js.map",
+    "487.b5681303.chunk.css.map": "/static/css/487.b5681303.chunk.css.map",
+    "487.030fbe60.chunk.js.map": "/static/js/487.030fbe60.chunk.js.map",
+    "990.7572d4ba.chunk.css.map": "/static/css/990.7572d4ba.chunk.css.map",
+    "990.8c4bad99.chunk.js.map": "/static/js/990.8c4bad99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c5ccaff.css",
+    "static/js/main.87acb962.js"
+  ]
+}
